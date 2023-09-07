@@ -13,7 +13,6 @@ body {
   overflow: hidden;
   width: 400px;
   height: 500px;
-  filter: brightness(70%);
 }
 #my-slack-image {
   width: 400px;
@@ -28,4 +27,8 @@ body {
 
 p {
   font-size: 24px;
+}
+
+a:active {
+  color: #fff;
 }
