@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand');
+
+body {
+  padding: 0;
+  margin: 2%;
+  box-sizing: border-box;
+  font-family: 'Quicksand';
+  background-color: #080f18;
+  color: #fff;
+}
+
+.img-container {
+  overflow: hidden;
+  width: 400px;
+  height: 500px;
+  filter: brightness(70%);
+}
+#my-slack-image {
+  width: 400px;
+  height: 500px;
+  object-fit: cover;
+  transition: 0.5s ease-in-out;
+}
+
+#my-slack-image:hover {
+  transform: scale(1.2);
+}
+
+p {
+  font-size: 24px;
+}
